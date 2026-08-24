@@ -27,19 +27,19 @@ jobs:
 
       - name: Get dependencies
         run: flutter pub get
-        working-directory: bergamot
+        working-directory: bergamot/bergamot
 
       - name: Generate code (build_runner)
         run: dart run build_runner build --delete-conflicting-outputs
-        working-directory: bergamot
+        working-directory: bergamot/bergamot
 
       - name: Build APK (release)
         run: flutter build apk --release
-        working-directory: bergamot
+        working-directory: bergamot/bergamot
 
       - name: Upload APK artifact
         uses: actions/upload-artifact@v4
         with:
           name: bergamot-release-apk
-          path: bergamot/build/app/outputs/flutter-apk/app-release.apk
+          path: bergamot/bergamot/build/app/outputs/flutter-apk/app-release.apk
           retention-days: 7

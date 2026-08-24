@@ -6,6 +6,8 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../../../data/database/bergamot_database.dart';
 import '../../../data/database/database_provider.dart';
 import '../../../domain/entities/bergamot_text_normalizer.dart';
+import '../exercise/exercise_provider.dart';
+import '../nutrition/nutrition_provider.dart';
 
 // ────────────────────────────────────────────────────────────────────────────
 // مدل نتایج جستجو

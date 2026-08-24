@@ -2,6 +2,7 @@ import 'package:drift/drift.dart' hide Column;
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
+import '../../../data/database/bergamot_database.dart';
 import '../../../data/database/database_provider.dart';
 
 /// مدل یکتای رویداد تایم‌لاین

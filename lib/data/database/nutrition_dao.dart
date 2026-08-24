@@ -100,10 +100,10 @@ class NutritionDao {
     final pattern = '%$escaped%';
     return (db.select(db.foods)
           ..where((t) =>
-              t.normalizedNameFa.like(pattern, escape: '\\') |
-              t.normalizedNameEn.like(pattern, escape: '\\') |
-              t.nameFa.like(pattern, escape: '\\') |
-              t.nameEn.like(pattern, escape: '\\'))
+              t.normalizedNameFa.like(pattern) |
+              t.normalizedNameEn.like(pattern) |
+              t.nameFa.like(pattern) |
+              t.nameEn.like(pattern))
           ..orderBy([
             // اول رکوردهای تأییدشده
             (t) => OrderingTerm.desc(t.isVerified),

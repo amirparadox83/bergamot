@@ -1,0 +1,180 @@
+{
+ "categories": [
+  {
+   "id": 1,
+   "code": "fruits",
+   "nameEn": "Fruits",
+   "nameFa": "میوه‌ها",
+   "normalizedNameFa": "میوه ها",
+   "normalizedNameEn": "fruits"
+  },
+  {
+   "id": 2,
+   "code": "vegetables",
+   "nameEn": "Vegetables",
+   "nameFa": "سبزیجات",
+   "normalizedNameFa": "سبزیجات",
+   "normalizedNameEn": "vegetables"
+  },
+  {
+   "id": 3,
+   "code": "legumes",
+   "nameEn": "Legumes",
+   "nameFa": "حبوبات",
+   "normalizedNameFa": "حبوبات",
+   "normalizedNameEn": "legumes"
+  },
+  {
+   "id": 4,
+   "code": "grains",
+   "nameEn": "Grains",
+   "nameFa": "غلات",
+   "normalizedNameFa": "غلات",
+   "normalizedNameEn": "grains"
+  },
+  {
+   "id": 5,
+   "code": "rice",
+   "nameEn": "Rice",
+   "nameFa": "برنج",
+   "normalizedNameFa": "برنج",
+   "normalizedNameEn": "rice"
+  },
+  {
+   "id": 6,
+   "code": "bread",
+   "nameEn": "Bread",
+   "nameFa": "نان",
+   "normalizedNameFa": "نان",
+   "normalizedNameEn": "bread"
+  },
+  {
+   "id": 7,
+   "code": "dairy",
+   "nameEn": "Dairy",
+   "nameFa": "لبنیات",
+   "normalizedNameFa": "لبنیات",
+   "normalizedNameEn": "dairy"
+  },
+  {
+   "id": 8,
+   "code": "meat",
+   "nameEn": "Meat",
+   "nameFa": "گوشت",
+   "normalizedNameFa": "گوشت",
+   "normalizedNameEn": "meat"
+  },
+  {
+   "id": 9,
+   "code": "poultry",
+   "nameEn": "Poultry",
+   "nameFa": "مرغ و طیور",
+   "normalizedNameFa": "مرغ و طیور",
+   "normalizedNameEn": "poultry"
+  },
+  {
+   "id": 10,
+   "code": "fish_seafood",
+   "nameEn": "Fish & Seafood",
+   "nameFa": "ماهی و غذاهای دریایی",
+   "normalizedNameFa": "ماهی و غذاهای دریایی",
+   "normalizedNameEn": "fish seafood"
+  },
+  {
+   "id": 11,
+   "code": "eggs",
+   "nameEn": "Eggs",
+   "nameFa": "تخم‌مرغ",
+   "normalizedNameFa": "تخم مرغ",
+   "normalizedNameEn": "eggs"
+  },
+  {
+   "id": 12,
+   "code": "nuts",
+   "nameEn": "Nuts",
+   "nameFa": "مغزها",
+   "normalizedNameFa": "مغزها",
+   "normalizedNameEn": "nuts"
+  },
+  {
+   "id": 13,
+   "code": "seeds",
+   "nameEn": "Seeds",
+   "nameFa": "دانه‌ها",
+   "normalizedNameFa": "دانه ها",
+   "normalizedNameEn": "seeds"
+  },
+  {
+   "id": 14,
+   "code": "oils_fats",
+   "nameEn": "Oils & Fats",
+   "nameFa": "روغن و چربی",
+   "normalizedNameFa": "روغن و چربی",
+   "normalizedNameEn": "oils fats"
+  },
+  {
+   "id": 15,
+   "code": "breakfast",
+   "nameEn": "Breakfast",
+   "nameFa": "صبحانه",
+   "normalizedNameFa": "صبحانه",
+   "normalizedNameEn": "breakfast"
+  },
+  {
+   "id": 16,
+   "code": "beverages",
+   "nameEn": "Beverages",
+   "nameFa": "نوشیدنی",
+   "normalizedNameFa": "نوشیدنی",
+   "normalizedNameEn": "beverages"
+  },
+  {
+   "id": 17,
+   "code": "snacks",
+   "nameEn": "Snacks",
+   "nameFa": "تنقلات",
+   "normalizedNameFa": "تنقلات",
+   "normalizedNameEn": "snacks"
+  },
+  {
+   "id": 18,
+   "code": "sweets",
+   "nameEn": "Sweets",
+   "nameFa": "شیرینی",
+   "normalizedNameFa": "شیرینی",
+   "normalizedNameEn": "sweets"
+  },
+  {
+   "id": 19,
+   "code": "spices_herbs",
+   "nameEn": "Spices & Herbs",
+   "nameFa": "ادویه و سبزی‌های معطر",
+   "normalizedNameFa": "ادویه و سبزی های معطر",
+   "normalizedNameEn": "spices herbs"
+  },
+  {
+   "id": 20,
+   "code": "sauces",
+   "nameEn": "Sauces",
+   "nameFa": "سس‌ها",
+   "normalizedNameFa": "سس ها",
+   "normalizedNameEn": "sauces"
+  },
+  {
+   "id": 21,
+   "code": "iranian_foods",
+   "nameEn": "Iranian Foods",
+   "nameFa": "غذاهای ایرانی",
+   "normalizedNameFa": "غذاهای ایرانی",
+   "normalizedNameEn": "iranian foods"
+  },
+  {
+   "id": 22,
+   "code": "other",
+   "nameEn": "Other",
+   "nameFa": "سایر",
+   "normalizedNameFa": "سایر",
+   "normalizedNameEn": "other"
+  }
+ ]
+}

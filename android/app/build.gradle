@@ -1,0 +1,79 @@
+plugins {
+    id "com.android.application"
+    id "kotlin-android"
+    // The Flutter Gradle Plugin must be applied after the Android and Kotlin Gradle plugins.
+    id "dev.flutter.flutter-gradle-plugin"
+}
+
+android {
+    namespace = "com.bergamot.bergamot"
+    compileSdk = 34
+    ndkVersion = flutter.ndkVersion
+
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
+    }
+
+    kotlinOptions {
+        jvmTarget = JavaVersion.VERSION_17
+    }
+
+    signingConfigs {
+        // TODO(production): Configure release signing before Play Store submission.
+        // Step 1: Generate a keystore:
+        //   keytool -genkey -v -keystore ~/keystore/bergamot-release.jks \
+        //     -keyalg RSA -keysize 2048 -validity 10000 \
+        //     -alias bergamot-release
+        // Step 2: Store the keystore path, password, and key password in:
+        //   - key.properties (NEVER commit this file — add to .gitignore)
+        //     storePassword=<YOUR_STORE_PASSWORD>
+        //     keyPassword=<YOUR_KEY_PASSWORD>
+        //     keyAlias=bergamot-release
+        //     storeFile=/path/to/bergamot-release.jks
+        // Step 3: Uncomment the release block below and read from key.properties.
+        //
+        // release {
+        //     def keystoreProperties = new Properties()
+        //     def keystorePropertiesFile = rootProject.file('key.properties')
+        //     if (keystorePropertiesFile.exists()) {
+        //         keystoreProperties.load(new FileInputStream(keystorePropertiesFile))
+        //     }
+        //
+        //     keyAlias keystoreProperties['keyAlias']
+        //     keyPassword keystoreProperties['keyPassword']
+        //     storeFile keystoreProperties['storeFile'] ? file(keystoreProperties['storeFile']) : null
+        //     storePassword keystoreProperties['storePassword']
+        // }
+
+        debug {
+            storeFile file(System.getenv('KEYSTORE') ?: 'debug.keystore')
+            storePassword System.getenv('KEYSTORE_PASSWORD') ?: 'android'
+            keyAlias System.getenv('KEY_ALIAS') ?: 'androiddebugkey'
+            keyPassword System.getenv('KEY_PASSWORD') ?: 'android'
+        }
+    }
+
+    defaultConfig {
+        applicationId = "com.bergamot.bergamot"
+        minSdk = 21
+        targetSdk = 34
+        versionCode = flutter.versionCode
+        versionName = flutter.versionName
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            // TODO(production): Switch to signingConfigs.release once configured.
+            // Signing with the debug keys for now, so `flutter run --release` works.
+            signingConfig = signingConfigs.debug
+        }
+    }
+}
+
+flutter {
+    source = "../.."
+}

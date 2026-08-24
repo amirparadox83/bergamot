@@ -1,0 +1,874 @@
+{
+ "recipes": [
+  {
+   "nameEn": "Ghormeh Sabzi",
+   "nameFa": "قرمه‌سبزی",
+   "categoryId": "iranian_foods",
+   "normalizedNameFa": "قرمه سبزی",
+   "normalizedNameEn": "ghormeh sabzi",
+   "totalYieldGrams": 1200.0,
+   "servingSize": 300.0,
+   "servingUnit": "plate",
+   "servingDescriptionFa": "یک بشقاب",
+   "ingredients": [
+    {
+     "ingredientKey": "lamb raw",
+     "grams": 500.0
+    },
+    {
+     "ingredientKey": "kidney beans raw",
+     "grams": 200.0
+    },
+    {
+     "ingredientKey": "spinach raw",
+     "grams": 200.0
+    },
+    {
+     "ingredientKey": "parsley fresh",
+     "grams": 100.0
+    },
+    {
+     "ingredientKey": "cilantro fresh",
+     "grams": 100.0
+    },
+    {
+     "ingredientKey": "leek raw",
+     "grams": 80.0
+    },
+    {
+     "ingredientKey": "fenugreek fresh",
+     "grams": 30.0
+    },
+    {
+     "ingredientKey": "onion raw",
+     "grams": 200.0
+    },
+    {
+     "ingredientKey": "vegetable oil",
+     "grams": 60.0
+    },
+    {
+     "ingredientKey": "dried lime",
+     "grams": 15.0
+    },
+    {
+     "ingredientKey": "salt",
+     "grams": 5.0
+    },
+    {
+     "ingredientKey": "turmeric ground",
+     "grams": 5.0
+    }
+   ],
+   "source": "IRANIAN_RECIPE",
+   "isCustom": false,
+   "isVerified": true,
+   "verificationStatus": "COMMUNITY_RECIPE",
+   "notes": "خورشت سبزی‌معطر با گوشت و لوبیا قرمز — دستور خانگی استاندارد."
+  },
+  {
+   "nameEn": "Gheimeh",
+   "nameFa": "قیمه",
+   "categoryId": "iranian_foods",
+   "normalizedNameFa": "قیمه",
+   "normalizedNameEn": "gheimeh",
+   "totalYieldGrams": 1200.0,
+   "servingSize": 300.0,
+   "servingUnit": "plate",
+   "servingDescriptionFa": "یک بشقاب",
+   "ingredients": [
+    {
+     "ingredientKey": "lamb raw",
+     "grams": 500.0
+    },
+    {
+     "ingredientKey": "split peas raw",
+     "grams": 200.0
+    },
+    {
+     "ingredientKey": "onion raw",
+     "grams": 200.0
+    },
+    {
+     "ingredientKey": "tomato paste",
+     "grams": 60.0
+    },
+    {
+     "ingredientKey": "vegetable oil",
+     "grams": 80.0
+    },
+    {
+     "ingredientKey": "potato raw",
+     "grams": 300.0
+    },
+    {
+     "ingredientKey": "dried lime",
+     "grams": 15.0
+    },
+    {
+     "ingredientKey": "turmeric ground",
+     "grams": 5.0
+    },
+    {
+     "ingredientKey": "salt",
+     "grams": 5.0
+    },
+    {
+     "ingredientKey": "black pepper ground",
+     "grams": 2.0
+    }
+   ],
+   "source": "IRANIAN_RECIPE",
+   "isCustom": false,
+   "isVerified": true,
+   "verificationStatus": "COMMUNITY_RECIPE",
+   "notes": "خورشت گوشت و لپه با سیب‌زمینی سرخ‌شده."
+  },
+  {
+   "nameEn": "Fesenjan",
+   "nameFa": "فسنجان",
+   "categoryId": "iranian_foods",
+   "normalizedNameFa": "فسنجان",
+   "normalizedNameEn": "fesenjan",
+   "totalYieldGrams": 1100.0,
+   "servingSize": 300.0,
+   "servingUnit": "plate",
+   "servingDescriptionFa": "یک بشقاب",
+   "ingredients": [
+    {
+     "ingredientKey": "chicken raw",
+     "grams": 700.0
+    },
+    {
+     "ingredientKey": "walnuts raw",
+     "grams": 400.0
+    },
+    {
+     "ingredientKey": "pomegranate molasses",
+     "grams": 100.0
+    },
+    {
+     "ingredientKey": "onion raw",
+     "grams": 150.0
+    },
+    {
+     "ingredientKey": "vegetable oil",
+     "grams": 30.0
+    },
+    {
+     "ingredientKey": "turmeric ground",
+     "grams": 5.0
+    },
+    {
+     "ingredientKey": "salt",
+     "grams": 5.0
+    },
+    {
+     "ingredientKey": "sugar",
+     "grams": 20.0
+    }
+   ],
+   "source": "IRANIAN_RECIPE",
+   "isCustom": false,
+   "isVerified": true,
+   "verificationStatus": "COMMUNITY_RECIPE",
+   "notes": "خورشت گردو با مرغ یا گوشت — دستور شمالی."
+  },
+  {
+   "nameEn": "Khoresht-e Bademjan",
+   "nameFa": "خورشت بادمجان",
+   "categoryId": "iranian_foods",
+   "normalizedNameFa": "خورشت بادمجان",
+   "normalizedNameEn": "khoresht-e bademjan",
+   "totalYieldGrams": 1200.0,
+   "servingSize": 300.0,
+   "servingUnit": "plate",
+   "servingDescriptionFa": "یک بشقاب",
+   "ingredients": [
+    {
+     "ingredientKey": "lamb raw",
+     "grams": 500.0
+    },
+    {
+     "ingredientKey": "eggplant raw",
+     "grams": 600.0
+    },
+    {
+     "ingredientKey": "tomato raw",
+     "grams": 400.0
+    },
+    {
+     "ingredientKey": "onion raw",
+     "grams": 150.0
+    },
+    {
+     "ingredientKey": "vegetable oil",
+     "grams": 80.0
+    },
+    {
+     "ingredientKey": "tomato paste",
+     "grams": 40.0
+    },
+    {
+     "ingredientKey": "turmeric ground",
+     "grams": 5.0
+    },
+    {
+     "ingredientKey": "salt",
+     "grams": 5.0
+    }
+   ],
+   "source": "IRANIAN_RECIPE",
+   "isCustom": false,
+   "isVerified": true,
+   "verificationStatus": "COMMUNITY_RECIPE",
+   "notes": "خورشت بادمجان و گوجه با گوشت."
+  },
+  {
+   "nameEn": "Khoresht-e Karafs",
+   "nameFa": "خوراک کرفس",
+   "categoryId": "iranian_foods",
+   "normalizedNameFa": "خوراک کرفس",
+   "normalizedNameEn": "khoresht-e karafs",
+   "totalYieldGrams": 1100.0,
+   "servingSize": 300.0,
+   "servingUnit": "plate",
+   "servingDescriptionFa": "یک بشقاب",
+   "ingredients": [
+    {
+     "ingredientKey": "lamb raw",
+     "grams": 500.0
+    },
+    {
+     "ingredientKey": "celery raw",
+     "grams": 500.0
+    },
+    {
+     "ingredientKey": "onion raw",
+     "grams": 150.0
+    },
+    {
+     "ingredientKey": "vegetable oil",
+     "grams": 50.0
+    },
+    {
+     "ingredientKey": "mint fresh",
+     "grams": 30.0
+    },
+    {
+     "ingredientKey": "parsley fresh",
+     "grams": 30.0
+    },
+    {
+     "ingredientKey": "walnuts raw",
+     "grams": 80.0
+    },
+    {
+     "ingredientKey": "turmeric ground",
+     "grams": 5.0
+    },
+    {
+     "ingredientKey": "salt",
+     "grams": 5.0
+    }
+   ],
+   "source": "IRANIAN_RECIPE",
+   "isCustom": false,
+   "isVerified": true,
+   "verificationStatus": "COMMUNITY_RECIPE",
+   "notes": "خورشت کرفس با گوشت و گردو."
+  },
+  {
+   "nameEn": "Adas Polo",
+   "nameFa": "عدس پلو",
+   "categoryId": "iranian_foods",
+   "normalizedNameFa": "عدس پلو",
+   "normalizedNameEn": "adas polo",
+   "totalYieldGrams": 1500.0,
+   "servingSize": 250.0,
+   "servingUnit": "plate",
+   "servingDescriptionFa": "یک بشقاب",
+   "ingredients": [
+    {
+     "ingredientKey": "rice white long-grain raw",
+     "grams": 500.0
+    },
+    {
+     "ingredientKey": "lentils raw",
+     "grams": 250.0
+    },
+    {
+     "ingredientKey": "onion raw",
+     "grams": 200.0
+    },
+    {
+     "ingredientKey": "vegetable oil",
+     "grams": 80.0
+    },
+    {
+     "ingredientKey": "raisins",
+     "grams": 100.0
+    },
+    {
+     "ingredientKey": "salt",
+     "grams": 8.0
+    },
+    {
+     "ingredientKey": "turmeric ground",
+     "grams": 5.0
+    }
+   ],
+   "source": "IRANIAN_RECIPE",
+   "isCustom": false,
+   "isVerified": true,
+   "verificationStatus": "COMMUNITY_RECIPE",
+   "notes": "پلوی برنج با عدس و کشمش."
+  },
+  {
+   "nameEn": "Zereshk Polo Ba Morgh",
+   "nameFa": "زرشک پلو با مرغ",
+   "categoryId": "iranian_foods",
+   "normalizedNameFa": "زرشک پلو با مرغ",
+   "normalizedNameEn": "zereshk polo ba morgh",
+   "totalYieldGrams": 1500.0,
+   "servingSize": 300.0,
+   "servingUnit": "plate",
+   "servingDescriptionFa": "یک بشقاب",
+   "ingredients": [
+    {
+     "ingredientKey": "rice white long-grain raw",
+     "grams": 500.0
+    },
+    {
+     "ingredientKey": "chicken raw",
+     "grams": 600.0
+    },
+    {
+     "ingredientKey": "barberry",
+     "grams": 80.0
+    },
+    {
+     "ingredientKey": "onion raw",
+     "grams": 150.0
+    },
+    {
+     "ingredientKey": "vegetable oil",
+     "grams": 80.0
+    },
+    {
+     "ingredientKey": "saffron",
+     "grams": 2.0
+    },
+    {
+     "ingredientKey": "salt",
+     "grams": 8.0
+    },
+    {
+     "ingredientKey": "turmeric ground",
+     "grams": 5.0
+    }
+   ],
+   "source": "IRANIAN_RECIPE",
+   "isCustom": false,
+   "isVerified": true,
+   "verificationStatus": "COMMUNITY_RECIPE",
+   "notes": "پلوی زرشک با مرغ."
+  },
+  {
+   "nameEn": "Baghali Polo",
+   "nameFa": "باقالی پلو",
+   "categoryId": "iranian_foods",
+   "normalizedNameFa": "باقالی پلو",
+   "normalizedNameEn": "baghali polo",
+   "totalYieldGrams": 1500.0,
+   "servingSize": 250.0,
+   "servingUnit": "plate",
+   "servingDescriptionFa": "یک بشقاب",
+   "ingredients": [
+    {
+     "ingredientKey": "rice white long-grain raw",
+     "grams": 500.0
+    },
+    {
+     "ingredientKey": "fava beans raw",
+     "grams": 300.0
+    },
+    {
+     "ingredientKey": "dill fresh",
+     "grams": 80.0
+    },
+    {
+     "ingredientKey": "vegetable oil",
+     "grams": 80.0
+    },
+    {
+     "ingredientKey": "salt",
+     "grams": 8.0
+    },
+    {
+     "ingredientKey": "turmeric ground",
+     "grams": 3.0
+    }
+   ],
+   "source": "IRANIAN_RECIPE",
+   "isCustom": false,
+   "isVerified": true,
+   "verificationStatus": "COMMUNITY_RECIPE",
+   "notes": "پلوی برنج با باقالی و شوید."
+  },
+  {
+   "nameEn": "Loobia Polo",
+   "nameFa": "لوبو پلو",
+   "categoryId": "iranian_foods",
+   "normalizedNameFa": "لوبو پلو",
+   "normalizedNameEn": "loobia polo",
+   "totalYieldGrams": 1500.0,
+   "servingSize": 300.0,
+   "servingUnit": "plate",
+   "servingDescriptionFa": "یک بشقاب",
+   "ingredients": [
+    {
+     "ingredientKey": "rice white long-grain raw",
+     "grams": 500.0
+    },
+    {
+     "ingredientKey": "ground beef raw",
+     "grams": 400.0
+    },
+    {
+     "ingredientKey": "kidney beans raw",
+     "grams": 200.0
+    },
+    {
+     "ingredientKey": "onion raw",
+     "grams": 200.0
+    },
+    {
+     "ingredientKey": "tomato paste",
+     "grams": 60.0
+    },
+    {
+     "ingredientKey": "vegetable oil",
+     "grams": 80.0
+    },
+    {
+     "ingredientKey": "salt",
+     "grams": 8.0
+    },
+    {
+     "ingredientKey": "cinnamon ground",
+     "grams": 3.0
+    }
+   ],
+   "source": "IRANIAN_RECIPE",
+   "isCustom": false,
+   "isVerified": true,
+   "verificationStatus": "COMMUNITY_RECIPE",
+   "notes": "پلوی برنج با لوبیا قرمز و گوشت چرخ‌کرده."
+  },
+  {
+   "nameEn": "Kuku Sabzi",
+   "nameFa": "کوکو سبزی",
+   "categoryId": "iranian_foods",
+   "normalizedNameFa": "کوکو سبزی",
+   "normalizedNameEn": "kuku sabzi",
+   "totalYieldGrams": 600.0,
+   "servingSize": 200.0,
+   "servingUnit": "plate",
+   "servingDescriptionFa": "یک بشقاب",
+   "ingredients": [
+    {
+     "ingredientKey": "egg raw whole",
+     "grams": 300.0
+    },
+    {
+     "ingredientKey": "parsley fresh",
+     "grams": 100.0
+    },
+    {
+     "ingredientKey": "cilantro fresh",
+     "grams": 80.0
+    },
+    {
+     "ingredientKey": "leek raw",
+     "grams": 80.0
+    },
+    {
+     "ingredientKey": "dill fresh",
+     "grams": 50.0
+    },
+    {
+     "ingredientKey": "vegetable oil",
+     "grams": 40.0
+    },
+    {
+     "ingredientKey": "turmeric ground",
+     "grams": 3.0
+    },
+    {
+     "ingredientKey": "salt",
+     "grams": 4.0
+    }
+   ],
+   "source": "IRANIAN_RECIPE",
+   "isCustom": false,
+   "isVerified": true,
+   "verificationStatus": "COMMUNITY_RECIPE",
+   "notes": "کوکو سبزی معطر با تخم‌مرغ."
+  },
+  {
+   "nameEn": "Kuku Sib Zamini",
+   "nameFa": "کوکو سیب‌زمینی",
+   "categoryId": "iranian_foods",
+   "normalizedNameFa": "کوکو سیب زمینی",
+   "normalizedNameEn": "kuku sib zamini",
+   "totalYieldGrams": 700.0,
+   "servingSize": 200.0,
+   "servingUnit": "plate",
+   "servingDescriptionFa": "یک بشقاب",
+   "ingredients": [
+    {
+     "ingredientKey": "potato raw",
+     "grams": 500.0
+    },
+    {
+     "ingredientKey": "egg raw whole",
+     "grams": 200.0
+    },
+    {
+     "ingredientKey": "onion raw",
+     "grams": 100.0
+    },
+    {
+     "ingredientKey": "vegetable oil",
+     "grams": 50.0
+    },
+    {
+     "ingredientKey": "turmeric ground",
+     "grams": 3.0
+    },
+    {
+     "ingredientKey": "salt",
+     "grams": 5.0
+    }
+   ],
+   "source": "IRANIAN_RECIPE",
+   "isCustom": false,
+   "isVerified": true,
+   "verificationStatus": "COMMUNITY_RECIPE",
+   "notes": "کوکو سیب‌زمینی با تخم‌مرغ."
+  },
+  {
+   "nameEn": "Joojeh Kabab",
+   "nameFa": "جوجه‌کباب",
+   "categoryId": "iranian_foods",
+   "normalizedNameFa": "جوجه کباب",
+   "normalizedNameEn": "joojeh kabab",
+   "totalYieldGrams": 700.0,
+   "servingSize": 200.0,
+   "servingUnit": "plate",
+   "servingDescriptionFa": "یک بشقاب",
+   "ingredients": [
+    {
+     "ingredientKey": "chicken raw",
+     "grams": 600.0
+    },
+    {
+     "ingredientKey": "onion raw",
+     "grams": 200.0
+    },
+    {
+     "ingredientKey": "vegetable oil",
+     "grams": 50.0
+    },
+    {
+     "ingredientKey": "saffron",
+     "grams": 2.0
+    },
+    {
+     "ingredientKey": "lemon juice",
+     "grams": 30.0
+    },
+    {
+     "ingredientKey": "salt",
+     "grams": 5.0
+    },
+    {
+     "ingredientKey": "black pepper ground",
+     "grams": 2.0
+    }
+   ],
+   "source": "IRANIAN_RECIPE",
+   "isCustom": false,
+   "isVerified": true,
+   "verificationStatus": "COMMUNITY_RECIPE",
+   "notes": "جوجه‌کباب زعفرانی."
+  },
+  {
+   "nameEn": "Kabab Koobideh",
+   "nameFa": "کباب کوبیده",
+   "categoryId": "iranian_foods",
+   "normalizedNameFa": "کباب کوبیده",
+   "normalizedNameEn": "kabab koobideh",
+   "totalYieldGrams": 700.0,
+   "servingSize": 180.0,
+   "servingUnit": "gram",
+   "servingDescriptionFa": "دو سیخ",
+   "ingredients": [
+    {
+     "ingredientKey": "ground beef raw",
+     "grams": 600.0
+    },
+    {
+     "ingredientKey": "onion raw",
+     "grams": 200.0
+    },
+    {
+     "ingredientKey": "vegetable oil",
+     "grams": 30.0
+    },
+    {
+     "ingredientKey": "salt",
+     "grams": 8.0
+    },
+    {
+     "ingredientKey": "black pepper ground",
+     "grams": 3.0
+    },
+    {
+     "ingredientKey": "turmeric ground",
+     "grams": 3.0
+    }
+   ],
+   "source": "IRANIAN_RECIPE",
+   "isCustom": false,
+   "isVerified": true,
+   "verificationStatus": "COMMUNITY_RECIPE",
+   "notes": "کباب گوشت چرخ‌کرده با پیاز."
+  },
+  {
+   "nameEn": "Ash Reshteh",
+   "nameFa": "آش رشته",
+   "categoryId": "iranian_foods",
+   "normalizedNameFa": "آش رشته",
+   "normalizedNameEn": "ash reshteh",
+   "totalYieldGrams": 2000.0,
+   "servingSize": 300.0,
+   "servingUnit": "plate",
+   "servingDescriptionFa": "یک کاسه",
+   "ingredients": [
+    {
+     "ingredientKey": "lentils raw",
+     "grams": 100.0
+    },
+    {
+     "ingredientKey": "chickpeas raw",
+     "grams": 100.0
+    },
+    {
+     "ingredientKey": "kidney beans raw",
+     "grams": 100.0
+    },
+    {
+     "ingredientKey": "rice white long-grain raw",
+     "grams": 100.0
+    },
+    {
+     "ingredientKey": "noodles dry",
+     "grams": 150.0
+    },
+    {
+     "ingredientKey": "parsley fresh",
+     "grams": 200.0
+    },
+    {
+     "ingredientKey": "cilantro fresh",
+     "grams": 150.0
+    },
+    {
+     "ingredientKey": "leek raw",
+     "grams": 150.0
+    },
+    {
+     "ingredientKey": "onion raw",
+     "grams": 200.0
+    },
+    {
+     "ingredientKey": "vegetable oil",
+     "grams": 100.0
+    },
+    {
+     "ingredientKey": "kashk",
+     "grams": 100.0
+    },
+    {
+     "ingredientKey": "salt",
+     "grams": 10.0
+    },
+    {
+     "ingredientKey": "turmeric ground",
+     "grams": 5.0
+    }
+   ],
+   "source": "IRANIAN_RECIPE",
+   "isCustom": false,
+   "isVerified": true,
+   "verificationStatus": "COMMUNITY_RECIPE",
+   "notes": "آش رشته با حبوبات و سبزی معطر."
+  },
+  {
+   "nameEn": "Adasi",
+   "nameFa": "عدسی",
+   "categoryId": "iranian_foods",
+   "normalizedNameFa": "عدسی",
+   "normalizedNameEn": "adasi",
+   "totalYieldGrams": 1500.0,
+   "servingSize": 250.0,
+   "servingUnit": "plate",
+   "servingDescriptionFa": "یک کاسه",
+   "ingredients": [
+    {
+     "ingredientKey": "lentils raw",
+     "grams": 400.0
+    },
+    {
+     "ingredientKey": "onion raw",
+     "grams": 200.0
+    },
+    {
+     "ingredientKey": "vegetable oil",
+     "grams": 50.0
+    },
+    {
+     "ingredientKey": "turmeric ground",
+     "grams": 5.0
+    },
+    {
+     "ingredientKey": "salt",
+     "grams": 8.0
+    },
+    {
+     "ingredientKey": "lemon juice",
+     "grams": 30.0
+    }
+   ],
+   "source": "IRANIAN_RECIPE",
+   "isCustom": false,
+   "isVerified": true,
+   "verificationStatus": "COMMUNITY_RECIPE",
+   "notes": "سوپ عدس با پیاز داغ."
+  },
+  {
+   "nameEn": "Kashk-e Bademjan",
+   "nameFa": "کشک بادمجان",
+   "categoryId": "iranian_foods",
+   "normalizedNameFa": "کشک بادمجان",
+   "normalizedNameEn": "kashk-e bademjan",
+   "totalYieldGrams": 800.0,
+   "servingSize": 250.0,
+   "servingUnit": "plate",
+   "servingDescriptionFa": "یک بشقاب",
+   "ingredients": [
+    {
+     "ingredientKey": "eggplant raw",
+     "grams": 700.0
+    },
+    {
+     "ingredientKey": "onion raw",
+     "grams": 150.0
+    },
+    {
+     "ingredientKey": "garlic raw",
+     "grams": 20.0
+    },
+    {
+     "ingredientKey": "vegetable oil",
+     "grams": 80.0
+    },
+    {
+     "ingredientKey": "kashk",
+     "grams": 100.0
+    },
+    {
+     "ingredientKey": "mint dried",
+     "grams": 15.0
+    },
+    {
+     "ingredientKey": "walnuts raw",
+     "grams": 50.0
+    },
+    {
+     "ingredientKey": "turmeric ground",
+     "grams": 3.0
+    },
+    {
+     "ingredientKey": "salt",
+     "grams": 5.0
+    }
+   ],
+   "source": "IRANIAN_RECIPE",
+   "isCustom": false,
+   "isVerified": true,
+   "verificationStatus": "COMMUNITY_RECIPE",
+   "notes": "بادمجان سرخ‌شده با کشک و نعناع داغ."
+  },
+  {
+   "nameEn": "Abgoosht / Dizi",
+   "nameFa": "آبگوشت / دیزی",
+   "categoryId": "iranian_foods",
+   "normalizedNameFa": "آبگوشت دیزی",
+   "normalizedNameEn": "abgoosht dizi",
+   "totalYieldGrams": 1500.0,
+   "servingSize": 350.0,
+   "servingUnit": "plate",
+   "servingDescriptionFa": "یک دیزی",
+   "ingredients": [
+    {
+     "ingredientKey": "lamb raw",
+     "grams": 400.0
+    },
+    {
+     "ingredientKey": "chickpeas raw",
+     "grams": 150.0
+    },
+    {
+     "ingredientKey": "kidney beans raw",
+     "grams": 100.0
+    },
+    {
+     "ingredientKey": "potato raw",
+     "grams": 400.0
+    },
+    {
+     "ingredientKey": "onion raw",
+     "grams": 200.0
+    },
+    {
+     "ingredientKey": "tomato paste",
+     "grams": 50.0
+    },
+    {
+     "ingredientKey": "vegetable oil",
+     "grams": 50.0
+    },
+    {
+     "ingredientKey": "dried lime",
+     "grams": 15.0
+    },
+    {
+     "ingredientKey": "turmeric ground",
+     "grams": 5.0
+    },
+    {
+     "ingredientKey": "salt",
+     "grams": 8.0
+    }
+   ],
+   "source": "IRANIAN_RECIPE",
+   "isCustom": false,
+   "isVerified": true,
+   "verificationStatus": "COMMUNITY_RECIPE",
+   "notes": "آبگوشت سنتی با گوشت، حبوبات و سیب‌زمینی."
+  }
+ ]
+}

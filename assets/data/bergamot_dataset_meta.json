@@ -1,0 +1,44 @@
+{
+  "source": "USDA FoodData Central + Iranian references",
+  "usda_versions": {
+    "foundation": "2026-04-30",
+    "sr_legacy": "2018-04",
+    "survey_fndds": "2024-10-31"
+  },
+  "usda_dataset_urls": [
+    "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_foundation_food_csv_2026-04-30.zip",
+    "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip",
+    "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_survey_food_csv_2024-10-31.zip"
+  ],
+  "import_date_utc": "2026-08-24",
+  "total_foods": 5625,
+  "total_recipes": 17,
+  "total_categories": 22,
+  "license": "USDA FoodData Central — public domain. Persian names are Bergamot-curated.",
+  "attribution": "U.S. Department of Agriculture, Agricultural Research Service. FoodData Central.",
+  "stats": {
+    "foundation_raw": 12935,
+    "sr_legacy_raw": 7793,
+    "fndds_raw": 5432,
+    "total_raw": 26160,
+    "phase5_filtered": 7740,
+    "phase5_rejected": 18420,
+    "phase5_reject_reasons": {
+      "no_nutrition": 15853,
+      "rejected_pattern": 2567
+    },
+    "phase8_deduped": 7593,
+    "phase8_duplicates_removed": 147,
+    "phase9_valid": 7443,
+    "phase9_invalid": 150,
+    "phase9_invalid_reasons": {
+      "out_of_bounds:carbsPer100g": 10,
+      "macro_calorie_mismatch": 138,
+      "out_of_bounds:potassiumPer100g": 2
+    },
+    "phase11_iranian_existing": 132,
+    "phase11_combined": 7575,
+    "final_total": 5625
+  },
+  "curation_notes": "PHASE 2 (Bergamot troubleshooting round 2, 2026-08-24): Removed 461 pork + 2 alcohol records (religious restrictions for Iranian market). Removed 1487 USDA meat cut variants (sub-primal cuts like \"lamb foreshank separable lean only trimmed to 1/4 fat choice cooked braised\") — kept only 7 canonical simple meats for Iranian market. Added 51 NEW Persian nameFa for high-priority common foods."
+}

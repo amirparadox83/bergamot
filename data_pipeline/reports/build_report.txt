@@ -1,0 +1,88 @@
+======================================================================
+Bergamot Food Database — Build Report
+======================================================================
+
+PHASE 2 — Source datasets:
+  Foundation Foods : 2026-04-30 (latest)
+  SR Legacy        : 2018-04 (only available)
+  FNDDS / Survey   : 2024-10-31 (latest)
+
+PHASE 4 — Raw records parsed:
+  foundation_raw           =     12,935
+  sr_legacy_raw            =      7,793
+  fndds_raw                =      5,432
+  total_raw                =     26,160
+
+PHASE 5 — Filtering:
+  filtered in           =      7,740
+  rejected               =     18,420
+    - no_nutrition               15,853
+    - rejected_pattern            2,567
+
+PHASE 6 — Normalization:
+  All USDA descriptions normalized (lowercase, trimmed, no punct).
+  Persian: ي→ی, ك→ک, ZWNJ→space, extra spaces collapsed.
+
+PHASE 7 — Categorization:
+  USDA Foundation/SR/FNDDS categories → 22 Bergamot categories
+
+PHASE 8 — Deduplication:
+  deduped                =      7,593
+  duplicates removed     =        147
+
+PHASE 9 — Nutrition validation:
+  valid                  =      7,443
+  invalid (rejected)     =        150
+    - out_of_bounds:carbsPer100g       10
+    - macro_calorie_mismatch        138
+    - out_of_bounds:potassiumPer100g        2
+
+PHASE 10 — Persian mapping:
+  records with Persian name      =      3,853
+  records without Persian name   =      3,722
+
+PHASE 11 — Merge with existing iranian_foods.dart:
+  existing Iranian records added =        132
+  combined total                 =      7,575
+
+PHASE 12 — Final dataset:
+  Total foods in bergamot_foods.json =      7,575
+
+Per-category counts:
+  meat               (گوشت              )   1,916
+  legumes            (حبوبات            )   1,127
+  vegetables         (سبزیجات           )     862
+  bread              (نان               )     513
+  other              (سایر              )     376
+  fruits             (میوه‌ها           )     367
+  poultry            (مرغ و طیور        )     342
+  grains             (غلات              )     333
+  sweets             (شیرینی            )     329
+  fish_seafood       (ماهی و غذاهای دریایی)     284
+  dairy              (لبنیات            )     273
+  sauces             (سس‌ها             )     242
+  oils_fats          (روغن و چربی       )     206
+  nuts               (مغزها             )     156
+  beverages          (نوشیدنی           )     108
+  spices_herbs       (ادویه و سبزی‌های معطر)      55
+  snacks             (تنقلات            )      51
+  iranian_foods      (غذاهای ایرانی     )      28
+  seeds              (دانه‌ها           )       4
+  rice               (برنج              )       2
+  eggs               (تخم‌مرغ           )       1
+
+Per-source counts:
+  USDA_SR_LEGACY             6,307
+  USDA_FOUNDATION            1,136
+  IRANIAN_REFERENCE            132
+
+Missing-nutrient counts (NULL — NOT zero):
+  missing caloriesPer100g =    864
+  missing proteinPer100g   =      2
+  missing carbsPer100g     =    838
+  missing fatPer100g       =     14
+  missing servingSize      =  1,306
+
+Verification status:
+  records needing verification =  3,722
+
